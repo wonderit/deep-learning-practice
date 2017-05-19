@@ -1,6 +1,5 @@
 # Lab 5 Logistic Regression Classifier
-import os
-os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
+
 import tensorflow as tf
 tf.set_random_seed(777)  # for reproducibility
 
